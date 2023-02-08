@@ -5,9 +5,11 @@
 <h2>Overview</h2>
 <h3>Screen preview</h3>
 <h4>Desktop</h4>
-<a href="https://julianastahelin.github.io/menu-with-flexbox/"><img src="design/design-desktop.png" alt="image showing project on desktop size" style="width: 80%;"></a>
+<a href="https://julianastahelin.github.io/menu-with-flexbox/"><img src="design/design-desktop.png" alt="image showing project on desktop size" style="width: 90%;"></a>
+<h4>Tablet</h4>
+<a href="https://julianastahelin.github.io/menu-with-flexbox/"><img src="design/design-tablet.png" alt="image showing project on mobile size" style="width: 60%;"></a>
 <h4>Mobile</h4>
-<a href="https://julianastahelin.github.io/menu-with-flexbox/"><img src="design/design-mobile.png" alt="image showing project on mobile size" style="width: 30%;"></a>
+<a href="https://julianastahelin.github.io/menu-with-flexbox/"><img src="design/design-mobile.png" alt="image showing project on mobile size" style="width: 20%;"></a>
 
 <h3>Link</h3>
 <ul>
