@@ -1,9 +1,11 @@
-header {
+.header {
     font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 45px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .logo {
@@ -12,16 +14,14 @@ header {
     gap: 6px;
 }
 
-.logo a {
+.logo h1 {
     font-weight: 800;
     font-size: 20px;
-    line-height: 24px;
 }
 
 .menu {
     display: flex;
-    flex-wrap: wrap;
-    margin: 10px 0;
+    align-items: center;
 }
 
 .nav-item {
@@ -31,16 +31,14 @@ header {
 .nav-item a {
     display: inline-block;
     padding: 11px 7px;
-    font-weight: 400;
     font-size: 15px;
     line-height: 18px;
+    transition: 0.3s ease-in-out;
 }
 
-.nav-item.active, .nav-item:hover {
-    background-color: #5BC241;
-}
 .nav-item.active a, .nav-item a:hover {
     color: #ffffff;
+    background-color: #5BC241;
 }
 
 nav .cadastre-se {
