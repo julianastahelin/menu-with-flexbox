@@ -1,0 +1,42 @@
+@media (max-width: 426px) {
+    header {
+        display: block;
+        padding: 40px 80px;
+    }
+
+    .logo {
+       justify-content: center;
+    }
+    
+    .menu {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .nav-item {
+        margin-left: 0;
+    }
+
+    .nav-item a {
+        padding: 8px 7px;
+    }
+
+    .logo a, .nav-item a {
+        font-size: 40px;
+        line-height: 47px;
+        margin: 15px 0;
+    }
+
+    nav .cadastre-se {
+        margin-left: 0;
+        padding: 15px 30px;
+        align-self: flex-end;
+        margin: 10px auto;
+    }
+
+    nav .cadastre-se a {
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
